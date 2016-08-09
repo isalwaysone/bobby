@@ -22,9 +22,14 @@ div.description {
 
 ul.links {
    padding: 0;
+   list-style-type: none;
 }
 
-ul.links > a > li {
+ul.links > li {
+  display: inline-block;
+}
+
+ul.links > li > a {
   display: inline-block;
   transform: skew(-15deg);
   box-sizing: border-box;
@@ -36,12 +41,12 @@ ul.links > a > li {
   transition: background-color 300ms;
 }
 
-ul.links > a > li {
+ul.links > li > a {
   text-decoration: none;
   color: #FFF;
 }
 
-ul.links > a > li:hover {
+ul.links > li > a:hover {
   background-color: rgb(55, 96, 138);
 }
 
