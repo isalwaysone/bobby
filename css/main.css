@@ -57,11 +57,16 @@ div.card {
   border-radius: 10px;
   box-shadow: 1.5px 1.5px 10px lightblue;
   max-width: 300px;
-  margin: 0 auto;
 }
 
 /* Just make it more crispy */
 body {
   background-image: url(../images/sayagata-400px.png);
   font-family: 'Source Han Sans', 'Noto Sans CJK TC', 'Microsoft JhengHei', sans-serif;
+  
+  /* Vertical Centering */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
